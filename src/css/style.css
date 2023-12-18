@@ -8,10 +8,11 @@
     --bg-color: #212529;
     --border-color: #666;
     --font-color: #f1f5f9;
-    --primary-color: #4dff91;
-    --error-color: #ff0043;
+    --primary-color: #ff4d82;
+    --error-color: #ff0000;
   }
   
+
   body {
     background-color: var(--bg-color);
     color: var(--font-color);
@@ -29,16 +30,19 @@
   header {
     padding: 2rem 0;
   }
-  
+
   #themeSwitcher {
     background-color: var(--bg-color);
-    border: .125rem solid var(--font-color);
     color: var(--font-color);
+    width: auto;
+    height: 30px;
+    font-size: 45px;
+    cursor: pointer;
   }
   
+
   #themeSwitcher:hover {
-    background-color: var(--font-color);
-    color: var(--bg-color);
+    color: var(--primary-color);
   }
   
   button {
